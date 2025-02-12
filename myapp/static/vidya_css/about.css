@@ -1,0 +1,212 @@
+  
+.about_main_img{
+    padding-top: 250px;
+    padding-bottom: 150px;
+    background-color: #051a69;
+    background-image: url(../images/contactpic1.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.about_content h1{
+    color: #fbba02;
+    text-align: center;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0px;
+
+}
+.about_content h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size:34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+
+}
+.about_content p{
+    color: #fff;
+    margin: 0 0 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+.googleabout{
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 45px;
+    font-size: 15px;
+    
+}
+
+/* header */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.nav_color {
+    background-color: #071e67;
+    opacity: 0.97;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar .nav-link {
+    color: white !important; 
+}
+
+.navbar .nav-link:hover {
+    color: #fbba02 !important; 
+}
+
+.navbar .nav-link.active {
+    color: #fbba02 !important; 
+}
+header{
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+.register{
+    color: #ffffff;
+    background: #0039a4;
+    font-weight: 600;
+    border: 1px solid #f1de01d1 !important;
+    display: inline !important;
+    padding: 6px 10px !important;
+    background-image: linear-gradient(#f2b42d, #fd0300);
+    text-decoration: none;
+}
+
+
+.btn_1{
+    background-color: #7c62bd;
+    border-color: #5c1eff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 18px;
+    height: 50px;
+ }
+ .btn_2{
+  background-color: #62bdb4;
+  border-color: #35e9d7;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  height: 50px;
+}
+.btn_3{
+  background-color:#5ead5e;
+  border-color: #32d732;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 18px;
+  height: 50px;
+}
+
+.buttonmargin{
+    margin: 0 7px 15px 0;
+}
+
+
+
+/* footer */
+footer{
+    background-position: center top;
+    background-color: #021b5b;
+ }
+ .floatingcol{
+    margin-top: -50px;
+ }
+ .footimg{
+    margin: 50px 0px 0px 0px;
+    max-width: 100%;
+    height: auto;
+ }
+ .footdesc{
+    color: #bbc2d5;
+    text-align:center;
+    font-size: 13px;
+    line-height: 10px;
+ }
+ .isologo{
+    max-width: 400px;
+    margin: 30px auto 15px;
+ }
+ .footcopyright{
+    margin: 15px auto 15px;
+    color: #bbc2d5;
+    text-align: center;
+    font-size: 12px;
+ }
+ .footspacing{
+    letter-spacing: 0px;
+ }
+ .footcopyright a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+ }
+ .footcontact{
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 12px; 
+ }
+ .footcontactv2 a{
+    text-decoration: none;
+ }
+
+ .callback-end-img-div{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #041a6b;
+    background-image: url(../img/courses/snowpark-home-slider-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative
+}
+
+.callback-end-img-div h4{
+    text-align: center;
+    color: #19cf37;
+    font-size: 50px;
+    line-height: 25px;
+    font-weight: 700;
+   
+
+}
+.callback-end-img-div h5{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-top: 15px;
+   
+}
+.courses-bottom-decoration{
+    background-image: url(../images/snowpark-home-slide-decoration-bottomm.png);
+    height: 127px;
+    background-position: center bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-x;
+
+}
