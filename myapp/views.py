@@ -102,3 +102,5 @@ def send_otp(request):
 
 def otp_verify(request):
     return render(request,'verify-otp.html')
+def password(request):
+    return render (request,'password.html')
